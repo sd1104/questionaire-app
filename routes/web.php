@@ -21,4 +21,4 @@ Route::get('/', function () {
 //     return view('index');
 // });
 
-Route::get('index', 'App\Http\Controllers\TestController@index');
+// Route::get('index', 'App\Http\Controllers\TestController@index');
