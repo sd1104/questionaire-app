@@ -17,6 +17,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('tests/index', function () {
-    return view('index');
-});
+// Route::get('index', function () {
+//     return view('index');
+// });
+
+Route::get('index', 'App\Http\Controllers\TestController@index');

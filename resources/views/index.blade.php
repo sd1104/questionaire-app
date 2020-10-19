@@ -21,5 +21,11 @@
     hello();
   ?>
 
+  <br>
+
+  <?php
+    hello();
+  ?>
+
 </body>
 </html>
