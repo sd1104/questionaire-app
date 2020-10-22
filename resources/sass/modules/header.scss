@@ -1,0 +1,18 @@
+.heaer_nav {
+  height: 50px;
+  width: 100%;
+  background-color: lightgoldenrodyellow;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  .header_title{
+    font-size: 30px;
+    color: blue;
+  }
+  .button_box {
+    display: flex;
+    .new-register {
+      margin-right: 20px;
+    }
+  }
+}

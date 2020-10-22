@@ -1,2 +1,22 @@
-@import "reset";
-@import "modules/style.css";
+.heaer_nav {
+  height: 50px;
+  width: 100%;
+  background-color: lightgoldenrodyellow;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.heaer_nav .header_title {
+  font-size: 30px;
+  color: blue;
+}
+
+.heaer_nav .button_box {
+  display: flex;
+}
+
+.heaer_nav .button_box .new-register {
+  margin-right: 20px;
+}
+

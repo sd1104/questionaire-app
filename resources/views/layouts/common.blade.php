@@ -9,6 +9,13 @@
 </head>
 <body>
   <header>
+    <div class="heaer_nav">
+      <h3 class="header_title">School-Q</h3>
+      <div class="button_box">
+        <button class="nav_button new-register">新規登録</button>
+        <button class="nav_button new-session">ログイン</button>
+      </div>
+    </div>
   </header>
 
   @yield('content')
