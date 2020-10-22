@@ -1,11 +1,11 @@
 .heaer_nav {
   height: 50px;
   width: 100%;
-  background-color: #dddddd;
   display: flex;
   justify-content: space-between;
   padding: 10px;
   .header_title{
+    margin-left: 40px;
     font-size: 30px;
     color: blue;
   }
@@ -15,8 +15,9 @@
     .new_register,
     .new_session {
       height: 30px;
-      width: 120px;
-      font-size: 15px;
+      width: 100px;
+      line-height: 15px;
+      font-size: 12px;
       margin-right: 20px;
     }
   }
