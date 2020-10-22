@@ -1,7 +1,54 @@
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+.button,
+a.button {
+  font-weight: 700;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+}
+
+.btn--orange,
+a.btn--orange {
+  color: #fff;
+  background-color: #eb6100;
+}
+
+.btn--orange:hover,
+a.btn--orange:hover {
+  color: #fff;
+  background: #f56500;
+}
+
+a.btn--radius {
+  border-radius: 100vh;
+}
+
 .heaer_nav {
   height: 50px;
   width: 100%;
-  background-color: lightgoldenrodyellow;
+  background-color: #dddddd;
   display: flex;
   justify-content: space-between;
   padding: 10px;
@@ -14,9 +61,14 @@
 
 .heaer_nav .button_box {
   display: flex;
+  padding: 0 20px;
 }
 
-.heaer_nav .button_box .new-register {
+.heaer_nav .button_box .new_register,
+.heaer_nav .button_box .new_session {
+  height: 30px;
+  width: 120px;
+  font-size: 15px;
   margin-right: 20px;
 }
 

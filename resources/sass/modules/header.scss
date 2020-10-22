@@ -1,7 +1,7 @@
 .heaer_nav {
   height: 50px;
   width: 100%;
-  background-color: lightgoldenrodyellow;
+  background-color: #dddddd;
   display: flex;
   justify-content: space-between;
   padding: 10px;
@@ -11,7 +11,12 @@
   }
   .button_box {
     display: flex;
-    .new-register {
+    padding: 0 20px;
+    .new_register,
+    .new_session {
+      height: 30px;
+      width: 120px;
+      font-size: 15px;
       margin-right: 20px;
     }
   }
