@@ -1,0 +1,22 @@
+.body{
+  min-height: 100vh;
+}
+
+
+
+.hello{
+  height: calc(100vh - 50px - 250px);
+}
+
+.nav {
+  background-color: #dddddd;
+}
+
+a {
+  color: #000;
+  text-decoration: none !important;
+}
+
+li {
+  list-style: none;
+}
