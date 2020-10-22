@@ -2,10 +2,6 @@
   min-height: 100vh;
 }
 
-.hello{
-  height: calc(100vh - 50px - 250px);
-}
-
 .nav {
   background-color: #dddddd;
 }
@@ -17,4 +13,9 @@ a {
 
 li {
   list-style: none;
+}
+
+.hello {
+  min-height: calc(100vh - 50px - 250px);
+  background-color: pink;
 }
