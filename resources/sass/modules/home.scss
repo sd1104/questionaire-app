@@ -71,7 +71,6 @@
     .kind_images {
       height: 60%;
       width: 70%;
-      // background-color: yellow;
       display: flex;
       justify-content: space-around;
       margin: 20px;
@@ -82,7 +81,6 @@
         margin: 0 15px;
         padding: 10px 5px;
         .kind_head {
-
         }
         #kind_image1,
         #kind_image2,
@@ -113,8 +111,62 @@
 
 
   .reason_contents{
-    height: 500px;
+    height: 700px;
     background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 0 30px 0 30px;
+    .reason_explanation {
+      width: 30%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin: 0 70px;
+      .reason_explain_head {
+        font-size: 15px;
+        font-weight: 700;
+        margin-bottom: 10px;
+      }
+      .reason_explain_body {
+        font-size: 12px;
+      }
+    }
+    .reason_images {
+      width: 70%;
+      display: flex;
+      flex-wrap: wrap;
+      margin: 20px;
+      padding: 10px;
+      .reason_image {
+        height: 250px;
+        width: 35%;
+        border: 3px solid #000;
+        margin: 10px 30px;
+        padding: 10px 5px;
+        .reason_head {
+        }
+        #reason_image1,
+        #reason_image2,
+        #reason_image3,
+        #reason_image4 {
+          height: 80%;
+          width: 100%;
+          background-size:cover;
+        }
+        #reason_image1 {
+          background-image: url(../../../public/images/happy_schoolboy.png);
+        }
+        #reason_image2 {
+          background-image: url(../../../public/images/happy_schoolgirl.png);
+        }
+        #reason_image3 {
+          background-image: url(../../../public/images/happy_schoolboy.png);
+        }
+        #reason_image4 {
+          background-image: url(../../../public/images/happy_schoolgirl.png);
+        }
+      }
+    }
   }
   .register_way_contens {
     height: 500px;

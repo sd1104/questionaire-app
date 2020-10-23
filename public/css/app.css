@@ -340,8 +340,70 @@ li {
 }
 
 .wrapper .reason_contents {
-  height: 500px;
+  height: 700px;
   background-color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 0 30px 0 30px;
+}
+
+.wrapper .reason_contents .reason_explanation {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0 70px;
+}
+
+.wrapper .reason_contents .reason_explanation .reason_explain_head {
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.wrapper .reason_contents .reason_explanation .reason_explain_body {
+  font-size: 12px;
+}
+
+.wrapper .reason_contents .reason_images {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  padding: 10px;
+}
+
+.wrapper .reason_contents .reason_images .reason_image {
+  height: 250px;
+  width: 35%;
+  border: 3px solid #000;
+  margin: 10px 30px;
+  padding: 10px 5px;
+}
+
+.wrapper .reason_contents .reason_images .reason_image #reason_image1,
+.wrapper .reason_contents .reason_images .reason_image #reason_image2,
+.wrapper .reason_contents .reason_images .reason_image #reason_image3,
+.wrapper .reason_contents .reason_images .reason_image #reason_image4 {
+  height: 80%;
+  width: 100%;
+  background-size: cover;
+}
+
+.wrapper .reason_contents .reason_images .reason_image #reason_image1 {
+  background-image: url(/images/happy_schoolboy.png?2dd6e32a0f58040c92ad155571a4f5e5);
+}
+
+.wrapper .reason_contents .reason_images .reason_image #reason_image2 {
+  background-image: url(/images/happy_schoolgirl.png?0a26df14513e4d2f4ce7c6a7bbad3532);
+}
+
+.wrapper .reason_contents .reason_images .reason_image #reason_image3 {
+  background-image: url(/images/happy_schoolboy.png?2dd6e32a0f58040c92ad155571a4f5e5);
+}
+
+.wrapper .reason_contents .reason_images .reason_image #reason_image4 {
+  background-image: url(/images/happy_schoolgirl.png?0a26df14513e4d2f4ce7c6a7bbad3532);
 }
 
 .wrapper .register_way_contens {

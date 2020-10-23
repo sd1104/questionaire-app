@@ -17,6 +17,7 @@
       </div>
     </div>
 
+
     <div class="kind_contents">
       <div class="explanation">
         <span class="explain_head">どんなアンケートをするの？</span><br>
@@ -47,7 +48,39 @@
     </div>
 
 
-    <div class="reason_contents"></div>
+    <div class="reason_contents">
+      <div class="reason_explanation">
+          <span class="reason_explain_head">何のためにアンケートをするの？</span><br>
+          <span class="reason_explain_body">
+            この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。
+            この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。
+            この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。
+            この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。
+            この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。
+          </span>
+        </div>
+        <ul class="reason_images">
+          <li class="reason_image">
+            <p class="reason_head">授業を改善するため</p>
+            <div id="reason_image1"></div>
+          </li>
+          <li class="reason_image">
+            <p class="reason_head">行事を精選するため</p>
+            <div id="reason_image2"></div>
+          </li>
+          <li class="reason_image">
+            <p class="reason_head">学習効果をより客観的に知るため</p>
+            <div id="reason_image3"></div>
+          </li>
+          <li class="reason_image">
+            <p class="reason_head">無駄を減らすため</p>
+            <div id="reason_image4"></div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+
     <div class="register_way_contens"></div>
     <div class="advantage_contents"></div>
   </div>
