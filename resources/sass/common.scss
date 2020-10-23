@@ -14,3 +14,43 @@ a {
 li {
   list-style: none;
 }
+
+.label {
+  color: #aaa;
+  margin-top: 20px;
+}
+
+.user_form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  height: 40px;
+  width: 300px;
+  border: 1px solid #aaa;
+  border-radius: 1rem;
+}
+
+.btn {
+  height: 40px;
+  width: 300px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 2rem;
+
+}
+
+.link_btn {
+  color: #000;
+  background-color: #ffad60;
+  margin-top: 40px;
+  border: 1px solid orange;
+}
+
+.submit_btn {
+  color: #000;
+  background-color: #5bd1d7;
+  margin-top: 40px;
+  border: 1px solid lightblue;
+}

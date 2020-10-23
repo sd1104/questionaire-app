@@ -1,6 +1,10 @@
 .wrapper {
   min-height: calc(100vh - 50px - 250px);
-  background-color: pink;
+  background-color: ivory;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   #top_image{
     height: 500px;
     background-color: #fff;
