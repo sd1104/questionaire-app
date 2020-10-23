@@ -15,7 +15,8 @@ li {
   list-style: none;
 }
 
-.hello {
-  min-height: calc(100vh - 50px - 250px);
-  background-color: pink;
+.image {
+  width: 150px;
+  height: 150px;
+  background-image: url(../../public/images/dance_yorokobi_mai_woman.png);
 }

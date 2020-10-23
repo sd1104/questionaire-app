@@ -1,0 +1,24 @@
+.wrapper {
+  min-height: calc(100vh - 50px - 250px);
+  background-color: pink;
+  .top_image{
+    height: 500px;
+    background-color: #fff;
+  }
+  .kind_contents {
+    height: 500px;
+    background-color: lightgray;
+  }
+  .reason_contents{
+    height: 500px;
+    background-color: #fff;
+  }
+  .register_way_contens {
+    height: 500px;
+    background-color: lightgray;
+  }
+  .advantage_contents {
+    height: 500px;
+    background-color: #fff;
+  }
+}

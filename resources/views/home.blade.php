@@ -1,8 +1,10 @@
 @extends('layouts.common')
 @section('content')
-  <div class="hello">
-    <br><br>
-    hello new world
-    <button type="button" class="btn btn-primary">Primary</button>
+  <div class="wrapper">
+    <div class="top_image"></div>
+    <div class="kind_contents"></div>
+    <div class="reason_contents"></div>
+    <div class="register_way_contens"></div>
+    <div class="advantage_contents"></div>
   </div>
 @endsection

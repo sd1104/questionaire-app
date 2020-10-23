@@ -170,9 +170,10 @@ li {
   list-style: none;
 }
 
-.hello {
-  min-height: calc(100vh - 50px - 250px);
-  background-color: pink;
+.image {
+  width: 150px;
+  height: 150px;
+  background-image: url(/images/dance_yorokobi_mai_woman.png?7109a090a83d25142bc9991c3ce1b3ca);
 }
 
 .heaer_nav {
@@ -218,5 +219,35 @@ li {
 .footer_nav .copyright {
   font-size: 12px;
   text-align: right;
+}
+
+.wrapper {
+  min-height: calc(100vh - 50px - 250px);
+  background-color: pink;
+}
+
+.wrapper .top_image {
+  height: 500px;
+  background-color: #fff;
+}
+
+.wrapper .kind_contents {
+  height: 500px;
+  background-color: lightgray;
+}
+
+.wrapper .reason_contents {
+  height: 500px;
+  background-color: #fff;
+}
+
+.wrapper .register_way_contens {
+  height: 500px;
+  background-color: lightgray;
+}
+
+.wrapper .advantage_contents {
+  height: 500px;
+  background-color: #fff;
 }
 
