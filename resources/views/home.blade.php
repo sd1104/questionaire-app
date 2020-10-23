@@ -101,7 +101,44 @@
     </div>
 
 
-
+    <div class="advantage_contents">
+      <div class="advantage_contents">
+        <div class="advantage_explanation">
+            <span class="advantage_explain_head">School-Qを使うとこんないいことが！</span><br>
+            <span class="advantage_explain_body">
+              この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。
+              この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。
+              この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。
+              この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。
+              この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。
+              この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。
+            </span>
+        </div>
+        <ul class="advantage_images">
+          <li class="advantage_image">
+            <p class="advantage_head">
+              先生にうれしい<br>
+              簡単アンケート作成１
+            </p>
+            <div id="advantage_image1"></div>
+          </li>
+          <li class="advantage_image">
+            <p class="advantage_head">
+              統計的に分析しできる。<br>
+              客観的なデータを元に授業、行事、説明会を作っていこう。
+            </p>
+            <div id="advantage_image2"></div>
+          </li>
+          <li class="advantage_image">
+            <p class="advantage_head">
+              紙で行う煩わしさ解消<br>
+              先生も保護者の方の負担を軽減１
+            </p>
+            <div id="advantage_image3"></div>
+          </li>
+        </ul>
+      </div>
+    </div>
 
   </div>
 @endsection

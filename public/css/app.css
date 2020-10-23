@@ -462,3 +462,73 @@ li {
   background-image: url(/images/job_mystery_shopper_man.png?d3241f184c510f8c817cc171b47b7cc6);
 }
 
+.wrapper .advantage_contents {
+  height: 500px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.wrapper .advantage_contents .advantage_explanation {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0 70px;
+}
+
+.wrapper .advantage_contents .advantage_explanation .advantage_explain_head {
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.wrapper .advantage_contents .advantage_explanation .advantage_explain_body {
+  font-size: 12px;
+}
+
+.wrapper .advantage_contents .advantage_images {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.wrapper .advantage_contents .advantage_images .advantage_image {
+  height: 300px;
+  width: 60%;
+  border: 3px solid #000;
+  margin: 10px 30px;
+  padding: 10px 5px;
+}
+
+.wrapper .advantage_contents .advantage_images .advantage_image .advantage_head {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.wrapper .advantage_contents .advantage_images .advantage_image #advantage_image1,
+.wrapper .advantage_contents .advantage_images .advantage_image #advantage_image2,
+.wrapper .advantage_contents .advantage_images .advantage_image #advantage_image3,
+.wrapper .advantage_contents .advantage_images .advantage_image #advantage_image4 {
+  height: 80%;
+  width: 100%;
+  background-size: cover;
+}
+
+.wrapper .advantage_contents .advantage_images .advantage_image #advantage_image1 {
+  background-image: url(/images/dance_yorokobi_mai_woman.png?7109a090a83d25142bc9991c3ce1b3ca);
+}
+
+.wrapper .advantage_contents .advantage_images .advantage_image #advantage_image2 {
+  background-image: url(/images/dance_yorokobi_mai_woman.png?7109a090a83d25142bc9991c3ce1b3ca);
+}
+
+.wrapper .advantage_contents .advantage_images .advantage_image #advantage_image3 {
+  background-image: url(/images/dance_yorokobi_mai_woman.png?7109a090a83d25142bc9991c3ce1b3ca);
+}
+
+.wrapper .advantage_contents .advantage_images .advantage_image #advantage_image4 {
+  background-image: url(/images/dance_yorokobi_mai_woman.png?7109a090a83d25142bc9991c3ce1b3ca);
+}
+

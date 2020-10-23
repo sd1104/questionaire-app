@@ -218,7 +218,64 @@
   }
 
 
-
+  .advantage_contents {
+    height: 500px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    .advantage_explanation {
+      width: 30%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin: 0 70px;
+      .advantage_explain_head {
+        font-size: 15px;
+        font-weight: 700;
+        margin-bottom: 10px;
+      }
+      .advantage_explain_body {
+        font-size: 12px;
+      }
+    }
+    .advantage_images {
+      width: 70%;
+      display: flex;
+      justify-content: space-around;
+      padding: 10px;
+      .advantage_image {
+        height: 300px;
+        width: 60%;
+        border: 3px solid #000;
+        margin: 10px 30px;
+        padding: 10px 5px;
+        .advantage_head {
+          font-size: 12px;
+          margin-bottom: 10px;
+        }
+        #advantage_image1,
+        #advantage_image2,
+        #advantage_image3,
+        #advantage_image4 {
+          height: 80%;
+          width: 100%;
+          background-size:cover;
+        }
+        #advantage_image1 {
+          background-image: url(../../../public/images/dance_yorokobi_mai_woman.png);
+        }
+        #advantage_image2 {
+          background-image: url(../../../public/images/dance_yorokobi_mai_woman.png);
+        }
+        #advantage_image3 {
+          background-image: url(../../../public/images/dance_yorokobi_mai_woman.png);
+        }
+        #advantage_image4 {
+          background-image: url(../../../public/images/dance_yorokobi_mai_woman.png);
+        }
+      }
+    }
+  }
 
 
 }
