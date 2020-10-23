@@ -1,24 +1,26 @@
 .heaer_nav {
   height: 50px;
-  width: 100%;
   display: flex;
   justify-content: space-between;
   padding: 10px;
   .header_title{
-    margin-left: 40px;
-    font-size: 30px;
+    margin: 0 auto 0 15px;
+    font-size: 25px;
+    line-height: 30px;
     color: blue;
   }
   .button_box {
     display: flex;
-    padding: 0 20px;
+    padding: 0 auto;
     .new_register,
     .new_session {
       height: 30px;
-      width: 100px;
+      width: 80px;
       line-height: 15px;
       font-size: 12px;
+      background-color: #bbb;
       margin-right: 20px;
+      border-radius: 3rem;
     }
   }
 }

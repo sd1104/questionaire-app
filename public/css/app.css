@@ -157,10 +157,6 @@ legend {
   min-height: 100vh;
 }
 
-.hello {
-  height: calc(100vh - 50px - 250px);
-}
-
 .nav {
   background-color: #dddddd;
 }
@@ -176,42 +172,38 @@ li {
 
 .heaer_nav {
   height: 50px;
-  width: 100%;
   display: flex;
   justify-content: space-between;
   padding: 10px;
 }
 
 .heaer_nav .header_title {
-  margin-left: 40px;
-  font-size: 30px;
+  margin: 0 auto 0 15px;
+  font-size: 25px;
+  line-height: 30px;
   color: blue;
 }
 
 .heaer_nav .button_box {
   display: flex;
-  padding: 0 20px;
+  padding: 0 auto;
 }
 
 .heaer_nav .button_box .new_register,
 .heaer_nav .button_box .new_session {
   height: 30px;
-  width: 100px;
+  width: 80px;
   line-height: 15px;
   font-size: 12px;
+  background-color: #bbb;
   margin-right: 20px;
+  border-radius: 3rem;
 }
 
 .footer_nav {
   height: 250px;
   width: 100%;
   padding: 40px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.footer_nav .footer_links {
-  height: 200px;
 }
 
 .footer_nav .footer_links li {
@@ -219,7 +211,324 @@ li {
 }
 
 .footer_nav .copyright {
-  height: 200px;
-  line-height: 300px;
+  font-size: 12px;
+  text-align: right;
+}
+
+.wrapper {
+  min-height: calc(100vh - 50px - 250px);
+  background-color: pink;
+}
+
+.wrapper #top_image {
+  height: 500px;
+  background-color: #fff;
+  background-image: url(/images/change-4039486_1920.jpg?b7148cc82158d0794b4e2269cf3cceb6);
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.wrapper #top_image #top_icon {
+  height: 300px;
+  width: 300px;
+  background: rgba(125, 196, 232, 0.7);
+  background-image: url(/images/test_print_mondaiyoushi.png?c3ef0c2681b8f2ba46316d677bc6461b);
+  margin: 20px 0;
+  border: 1px solid #fff;
+}
+
+.wrapper #top_image .top_copy {
+  color: #fff;
+  background: rgba(125, 196, 232, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #fff;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+.wrapper #top_image .top_copy .top_copy_main {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.wrapper #top_image .top_copy .top_copy_sub {
+  font-size: 12px;
+}
+
+.wrapper #top_image .top_image_author {
+  color: #000;
+  font-size: 10px;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+.wrapper #top_image .top_image_author .author {
+  color: #fff;
+  font-size: 10px;
+}
+
+.wrapper .kind_contents {
+  height: 500px;
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrapper .kind_contents .explanation {
+  width: 70%;
+  margin: 50px 0 20px 0;
+}
+
+.wrapper .kind_contents .explanation .explain_head {
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.wrapper .kind_contents .explanation .explain_body {
+  font-size: 12px;
+}
+
+.wrapper .kind_contents .kind_images {
+  height: 60%;
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+  padding: 10px;
+}
+
+.wrapper .kind_contents .kind_images .kind_image {
+  width: 80%;
+  border: 3px solid #fff;
+  margin: 0 15px;
+  padding: 10px 5px;
+}
+
+.wrapper .kind_contents .kind_images .kind_image #kind_image1,
+.wrapper .kind_contents .kind_images .kind_image #kind_image2,
+.wrapper .kind_contents .kind_images .kind_image #kind_image3,
+.wrapper .kind_contents .kind_images .kind_image #kind_image4 {
+  height: 90%;
+  width: 100%;
+  background-size: cover;
+}
+
+.wrapper .kind_contents .kind_images .kind_image #kind_image1 {
+  background-image: url(/images/questionaire1.png?3125b60f6e74c0f3801d37e789dbe0fa);
+}
+
+.wrapper .kind_contents .kind_images .kind_image #kind_image2 {
+  background-image: url(/images/questionaire-woman.png?e4cdf11c1341ebcdbe012dbb3c88266e);
+}
+
+.wrapper .kind_contents .kind_images .kind_image #kind_image3 {
+  background-image: url(/images/questionaire1.png?3125b60f6e74c0f3801d37e789dbe0fa);
+}
+
+.wrapper .kind_contents .kind_images .kind_image #kind_image4 {
+  background-image: url(/images/questionaire-woman.png?e4cdf11c1341ebcdbe012dbb3c88266e);
+}
+
+.wrapper .reason_contents {
+  height: 700px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 0 30px 0 30px;
+}
+
+.wrapper .reason_contents .reason_explanation {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0 70px;
+}
+
+.wrapper .reason_contents .reason_explanation .reason_explain_head {
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.wrapper .reason_contents .reason_explanation .reason_explain_body {
+  font-size: 12px;
+}
+
+.wrapper .reason_contents .reason_images {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  padding: 10px;
+}
+
+.wrapper .reason_contents .reason_images .reason_image {
+  height: 250px;
+  width: 35%;
+  border: 3px solid #000;
+  margin: 10px 30px;
+  padding: 10px 5px;
+}
+
+.wrapper .reason_contents .reason_images .reason_image #reason_image1,
+.wrapper .reason_contents .reason_images .reason_image #reason_image2,
+.wrapper .reason_contents .reason_images .reason_image #reason_image3,
+.wrapper .reason_contents .reason_images .reason_image #reason_image4 {
+  height: 80%;
+  width: 100%;
+  background-size: cover;
+}
+
+.wrapper .reason_contents .reason_images .reason_image #reason_image1 {
+  background-image: url(/images/happy_schoolboy.png?2dd6e32a0f58040c92ad155571a4f5e5);
+}
+
+.wrapper .reason_contents .reason_images .reason_image #reason_image2 {
+  background-image: url(/images/happy_schoolgirl.png?0a26df14513e4d2f4ce7c6a7bbad3532);
+}
+
+.wrapper .reason_contents .reason_images .reason_image #reason_image3 {
+  background-image: url(/images/happy_schoolboy.png?2dd6e32a0f58040c92ad155571a4f5e5);
+}
+
+.wrapper .reason_contents .reason_images .reason_image #reason_image4 {
+  background-image: url(/images/happy_schoolgirl.png?0a26df14513e4d2f4ce7c6a7bbad3532);
+}
+
+.wrapper .register_way_contens {
+  height: 500px;
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrapper .register_way_contens .register_explanation {
+  width: 70%;
+  margin: 50px 0 20px 0;
+}
+
+.wrapper .register_way_contens .register_explanation .register_explain_head {
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.wrapper .register_way_contens .register_images {
+  height: 60%;
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+  padding: 10px;
+}
+
+.wrapper .register_way_contens .register_images .register_image {
+  width: 80%;
+  border: 3px solid #fff;
+  margin: 0 15px;
+  padding: 10px 5px;
+}
+
+.wrapper .register_way_contens .register_images .register_image #register_image1,
+.wrapper .register_way_contens .register_images .register_image #register_image2,
+.wrapper .register_way_contens .register_images .register_image #register_image3,
+.wrapper .register_way_contens .register_images .register_image #register_image4 {
+  height: 90%;
+  width: 100%;
+  background-size: cover;
+}
+
+.wrapper .register_way_contens .register_images .register_image #register_image1 {
+  background-image: url(/images/job_mystery_shopper_man.png?d3241f184c510f8c817cc171b47b7cc6);
+}
+
+.wrapper .register_way_contens .register_images .register_image #register_image2 {
+  background-image: url(/images/job_mystery_shopper_man.png?d3241f184c510f8c817cc171b47b7cc6);
+}
+
+.wrapper .register_way_contens .register_images .register_image #register_image3 {
+  background-image: url(/images/job_mystery_shopper_man.png?d3241f184c510f8c817cc171b47b7cc6);
+}
+
+.wrapper .advantage_contents {
+  height: 500px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.wrapper .advantage_contents .advantage_explanation {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0 70px;
+}
+
+.wrapper .advantage_contents .advantage_explanation .advantage_explain_head {
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.wrapper .advantage_contents .advantage_explanation .advantage_explain_body {
+  font-size: 12px;
+}
+
+.wrapper .advantage_contents .advantage_images {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.wrapper .advantage_contents .advantage_images .advantage_image {
+  height: 300px;
+  width: 60%;
+  border: 3px solid #000;
+  margin: 10px 30px;
+  padding: 10px 5px;
+}
+
+.wrapper .advantage_contents .advantage_images .advantage_image .advantage_head {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.wrapper .advantage_contents .advantage_images .advantage_image #advantage_image1,
+.wrapper .advantage_contents .advantage_images .advantage_image #advantage_image2,
+.wrapper .advantage_contents .advantage_images .advantage_image #advantage_image3,
+.wrapper .advantage_contents .advantage_images .advantage_image #advantage_image4 {
+  height: 80%;
+  width: 100%;
+  background-size: cover;
+}
+
+.wrapper .advantage_contents .advantage_images .advantage_image #advantage_image1 {
+  background-image: url(/images/dance_yorokobi_mai_woman.png?7109a090a83d25142bc9991c3ce1b3ca);
+}
+
+.wrapper .advantage_contents .advantage_images .advantage_image #advantage_image2 {
+  background-image: url(/images/dance_yorokobi_mai_woman.png?7109a090a83d25142bc9991c3ce1b3ca);
+}
+
+.wrapper .advantage_contents .advantage_images .advantage_image #advantage_image3 {
+  background-image: url(/images/dance_yorokobi_mai_woman.png?7109a090a83d25142bc9991c3ce1b3ca);
+}
+
+.wrapper .advantage_contents .advantage_images .advantage_image #advantage_image4 {
+  background-image: url(/images/dance_yorokobi_mai_woman.png?7109a090a83d25142bc9991c3ce1b3ca);
 }
 

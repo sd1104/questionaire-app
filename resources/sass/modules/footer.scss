@@ -2,16 +2,13 @@
   height: 250px;
   width: 100%;
   padding: 40px;
-  display: flex;
-  justify-content: space-between;
   .footer_links{
-    height: 200px;
     li {
       margin-top: 7px;
     }
   }
   .copyright {
-    height: 200px;
-    line-height: 300px;
+    font-size: 12px;
+    text-align: right;
   }
 }
