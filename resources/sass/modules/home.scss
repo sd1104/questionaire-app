@@ -4,7 +4,7 @@
   #top_image{
     height: 500px;
     background-color: #fff;
-    background-image: url(../../../public/images/question-mark-3255136_1280.jpg);
+    background-image: url(../../../public/images/change-4039486_1920.jpg);
     background-size:cover;
     position: relative;
     display: flex;
@@ -38,7 +38,7 @@
       }
     }
     .top_image_author {
-      color: #fff;
+      color: #000;
       font-size: 10px;
       position: absolute;
       right: 10px;
@@ -107,9 +107,6 @@
   }
 
 
-
-
-
   .reason_contents{
     height: 700px;
     background-color: #fff;
@@ -168,12 +165,60 @@
       }
     }
   }
+
+
   .register_way_contens {
     height: 500px;
     background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .register_explanation {
+      width: 70%;
+      margin: 50px 0 20px 0;
+      .register_explain_head {
+        font-size: 15px;
+        font-weight: 700;
+        margin-bottom: 10px;
+      }
+    }
+    .register_images {
+      height: 60%;
+      width: 70%;
+      display: flex;
+      justify-content: space-around;
+      margin: 20px;
+      padding: 10px;
+      .register_image {
+        width: 80%;
+        border: 3px solid #fff;
+        margin: 0 15px;
+        padding: 10px 5px;
+        .register_head {
+        }
+        #register_image1,
+        #register_image2,
+        #register_image3,
+        #register_image4 {
+          height: 90%;
+          width: 100%;
+          background-size:cover;
+        }
+        #register_image1 {
+          background-image: url(../../../public/images/job_mystery_shopper_man.png);
+        }
+        #register_image2 {
+          background-image: url(../../../public/images/job_mystery_shopper_man.png);
+        }
+        #register_image3 {
+          background-image: url(../../../public/images/job_mystery_shopper_man.png);
+        }
+      }
+    }
   }
-  .advantage_contents {
-    height: 500px;
-    background-color: #fff;
-  }
+
+
+
+
+
 }

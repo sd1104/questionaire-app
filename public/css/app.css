@@ -223,7 +223,7 @@ li {
 .wrapper #top_image {
   height: 500px;
   background-color: #fff;
-  background-image: url(/images/question-mark-3255136_1280.jpg?130ab5eb1019db67fb3f750043085040);
+  background-image: url(/images/change-4039486_1920.jpg?b7148cc82158d0794b4e2269cf3cceb6);
   background-size: cover;
   position: relative;
   display: flex;
@@ -263,7 +263,7 @@ li {
 }
 
 .wrapper #top_image .top_image_author {
-  color: #fff;
+  color: #000;
   font-size: 10px;
   position: absolute;
   right: 10px;
@@ -409,10 +409,56 @@ li {
 .wrapper .register_way_contens {
   height: 500px;
   background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.wrapper .advantage_contents {
-  height: 500px;
-  background-color: #fff;
+.wrapper .register_way_contens .register_explanation {
+  width: 70%;
+  margin: 50px 0 20px 0;
+}
+
+.wrapper .register_way_contens .register_explanation .register_explain_head {
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.wrapper .register_way_contens .register_images {
+  height: 60%;
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+  padding: 10px;
+}
+
+.wrapper .register_way_contens .register_images .register_image {
+  width: 80%;
+  border: 3px solid #fff;
+  margin: 0 15px;
+  padding: 10px 5px;
+}
+
+.wrapper .register_way_contens .register_images .register_image #register_image1,
+.wrapper .register_way_contens .register_images .register_image #register_image2,
+.wrapper .register_way_contens .register_images .register_image #register_image3,
+.wrapper .register_way_contens .register_images .register_image #register_image4 {
+  height: 90%;
+  width: 100%;
+  background-size: cover;
+}
+
+.wrapper .register_way_contens .register_images .register_image #register_image1 {
+  background-image: url(/images/job_mystery_shopper_man.png?d3241f184c510f8c817cc171b47b7cc6);
+}
+
+.wrapper .register_way_contens .register_images .register_image #register_image2 {
+  background-image: url(/images/job_mystery_shopper_man.png?d3241f184c510f8c817cc171b47b7cc6);
+}
+
+.wrapper .register_way_contens .register_images .register_image #register_image3 {
+  background-image: url(/images/job_mystery_shopper_man.png?d3241f184c510f8c817cc171b47b7cc6);
 }
 
