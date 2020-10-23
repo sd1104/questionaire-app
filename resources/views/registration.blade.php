@@ -14,13 +14,15 @@
       <input type="text" id="school_name" class="input user_input">
       <label for="room_name" class="label user_label">クラス</label>
       <input type="text" id="room_name" class="input user_input">
+      <label for="email" class="label user_label">メールアドレス</label>
+      <input type="email" id="email" class="input user_input">
       <label for="password" class="label user_label">パスワード</label>
-      <input type="text" id="password" class="input user_input">
+      <input type="password" id="password" class="input user_input">
       <label for="password_confirmation" class="label user_label">パスワード（確認）</label>
-      <input type="text" id="password_confirmation" class="input user_input">
+      <input type="password" id="password_confirmation" class="input user_input">
       <input type="submit" class="btn submit_btn" value="登録する">
     </form>
-    <a href="#" class="btn link_btn">アカウントをお持ちの方はこちらへ</a>
+    <a href="#" class="btn link_btn">アカウントをお持ちの方</a>
   </div>
 
 </div>
