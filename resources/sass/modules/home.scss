@@ -49,10 +49,69 @@
       }
     }
   }
+
   .kind_contents {
     height: 500px;
     background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .explanation {
+      width: 70%;
+      margin: 50px 0 20px 0;
+      .explain_head {
+        font-size: 15px;
+        font-weight: 700;
+        margin-bottom: 10px;
+      }
+      .explain_body {
+        font-size: 12px;
+      }
+    }
+    .kind_images {
+      height: 60%;
+      width: 70%;
+      // background-color: yellow;
+      display: flex;
+      justify-content: space-around;
+      margin: 20px;
+      padding: 10px;
+      .kind_image {
+        width: 80%;
+        border: 3px solid #fff;
+        margin: 0 15px;
+        padding: 10px 5px;
+        .kind_head {
+
+        }
+        #kind_image1,
+        #kind_image2,
+        #kind_image3,
+        #kind_image4 {
+          height: 90%;
+          width: 100%;
+          background-size:cover;
+        }
+        #kind_image1 {
+          background-image: url(../../../public/images/questionaire1.png);
+        }
+        #kind_image2 {
+          background-image: url(../../../public/images/questionaire-woman.png);
+        }
+        #kind_image3 {
+          background-image: url(../../../public/images/questionaire1.png);
+        }
+        #kind_image4 {
+          background-image: url(../../../public/images/questionaire-woman.png);
+        }
+      }
+    }
   }
+
+
+
+
+
   .reason_contents{
     height: 500px;
     background-color: #fff;
