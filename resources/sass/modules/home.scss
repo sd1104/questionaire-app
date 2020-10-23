@@ -1,9 +1,53 @@
 .wrapper {
   min-height: calc(100vh - 50px - 250px);
   background-color: pink;
-  .top_image{
+  #top_image{
     height: 500px;
     background-color: #fff;
+    background-image: url(../../../public/images/question-mark-3255136_1280.jpg);
+    background-size:cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    #top_icon {
+      height: 300px;
+      width: 300px;
+      background: hsla(200,70%,70%,0.7);
+      background-image: url(../../../public/images/test_print_mondaiyoushi.png);
+      margin: 20px 0;
+      border: 1px solid #fff;
+     }
+    .top_copy {
+      color: #fff;
+      background: hsla(200,70%,70%,0.7);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      border: 1px solid #fff;
+      margin-bottom: 20px;
+      padding: 5px;
+      .top_copy_main {
+        font-size: 25px;
+        font-weight: 700;
+      }
+      .top_copy_sub {
+        font-size: 12px;
+      }
+    }
+    .top_image_author {
+      color: #fff;
+      font-size: 10px;
+      position: absolute;
+      right: 10px;
+      bottom: 10px;
+      .author {
+        color: #fff;
+        font-size: 10px;
+      }
+    }
   }
   .kind_contents {
     height: 500px;

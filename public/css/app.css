@@ -170,12 +170,6 @@ li {
   list-style: none;
 }
 
-.image {
-  width: 150px;
-  height: 150px;
-  background-image: url(/images/dance_yorokobi_mai_woman.png?7109a090a83d25142bc9991c3ce1b3ca);
-}
-
 .heaer_nav {
   height: 50px;
   display: flex;
@@ -226,9 +220,59 @@ li {
   background-color: pink;
 }
 
-.wrapper .top_image {
+.wrapper #top_image {
   height: 500px;
   background-color: #fff;
+  background-image: url(/images/question-mark-3255136_1280.jpg?130ab5eb1019db67fb3f750043085040);
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.wrapper #top_image #top_icon {
+  height: 300px;
+  width: 300px;
+  background: rgba(125, 196, 232, 0.7);
+  background-image: url(/images/test_print_mondaiyoushi.png?c3ef0c2681b8f2ba46316d677bc6461b);
+  margin: 20px 0;
+  border: 1px solid #fff;
+}
+
+.wrapper #top_image .top_copy {
+  color: #fff;
+  background: rgba(125, 196, 232, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #fff;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+.wrapper #top_image .top_copy .top_copy_main {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.wrapper #top_image .top_copy .top_copy_sub {
+  font-size: 12px;
+}
+
+.wrapper #top_image .top_image_author {
+  color: #fff;
+  font-size: 10px;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+.wrapper #top_image .top_image_author .author {
+  color: #fff;
+  font-size: 10px;
 }
 
 .wrapper .kind_contents {
