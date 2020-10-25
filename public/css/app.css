@@ -202,6 +202,11 @@ li {
   border: 1px solid orange;
 }
 
+.action {
+  display: flex;
+  justify-content: center;
+}
+
 .submit_btn {
   color: #000;
   background-color: #5bd1d7;
