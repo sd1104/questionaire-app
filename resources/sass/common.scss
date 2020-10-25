@@ -54,3 +54,20 @@ li {
   margin-top: 40px;
   border: 1px solid lightblue;
 }
+
+
+.q_box {
+  width: 300px;
+  .q_cont {
+    width: 230px;
+    display: flex;
+
+    .q_name {
+      margin-right: 10px;
+    }
+    .answer_btn {
+      width: 60px;
+      font-size: 10px;
+    }
+  }
+}

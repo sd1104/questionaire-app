@@ -209,6 +209,24 @@ li {
   border: 1px solid lightblue;
 }
 
+.q_box {
+  width: 300px;
+}
+
+.q_box .q_cont {
+  width: 230px;
+  display: flex;
+}
+
+.q_box .q_cont .q_name {
+  margin-right: 10px;
+}
+
+.q_box .q_cont .answer_btn {
+  width: 60px;
+  font-size: 10px;
+}
+
 .heaer_nav {
   height: 50px;
   display: flex;
