@@ -170,6 +170,45 @@ li {
   list-style: none;
 }
 
+.label {
+  color: #aaa;
+  margin-top: 20px;
+}
+
+.user_form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  height: 40px;
+  width: 300px;
+  border: 1px solid #aaa;
+  border-radius: 1rem;
+}
+
+.btn {
+  height: 40px;
+  width: 300px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 2rem;
+}
+
+.link_btn {
+  color: #000;
+  background-color: #ffad60;
+  margin-top: 40px;
+  border: 1px solid orange;
+}
+
+.submit_btn {
+  color: #000;
+  background-color: #5bd1d7;
+  margin-top: 40px;
+  border: 1px solid lightblue;
+}
+
 .heaer_nav {
   height: 50px;
   display: flex;
@@ -217,7 +256,11 @@ li {
 
 .wrapper {
   min-height: calc(100vh - 50px - 250px);
-  background-color: pink;
+  background-color: ivory;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .wrapper #top_image {
@@ -530,5 +573,20 @@ li {
 
 .wrapper .advantage_contents .advantage_images .advantage_image #advantage_image4 {
   background-image: url(/images/dance_yorokobi_mai_woman.png?7109a090a83d25142bc9991c3ce1b3ca);
+}
+
+.formbody1 {
+  width: 50%;
+  border: 2px solid #aaa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
+  padding: 30px;
+}
+
+.formbody1 .form_title {
+  color: #aaa;
+  margin-bottom: 40px;
 }
 
