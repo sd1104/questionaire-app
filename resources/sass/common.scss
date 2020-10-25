@@ -87,3 +87,11 @@ tr {
     }
   }
 }
+
+
+.answer {
+  display: flex;
+  .select {
+    display: inline-block;
+  }
+}

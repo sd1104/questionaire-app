@@ -245,6 +245,14 @@ tr {
   font-size: 10px;
 }
 
+.answer {
+  display: flex;
+}
+
+.answer .select {
+  display: inline-block;
+}
+
 .heaer_nav {
   height: 50px;
   display: flex;
