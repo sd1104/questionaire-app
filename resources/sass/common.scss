@@ -55,11 +55,17 @@ li {
   border: 1px solid lightblue;
 }
 
-.q_wrap {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-direction: column;
+thead {
+  border-bottom: 2px solid gray;
+}
+
+tr {
+  border-bottom: 1px solid gray;
+}
+
+.q_thead,
+.q_td {
+  margin: 10px 0;
 }
 
 .q_box {
@@ -67,9 +73,11 @@ li {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
+  margin: 20px 0;
   .q_cont {
     width: 230px;
     display: flex;
+    margin: 10px 0;
     .q_name {
       margin-right: 10px;
     }

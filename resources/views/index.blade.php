@@ -6,23 +6,35 @@
   <table>
     <thead>
       <tr>
-        <th>アンケート一覧</th>
+        <th>
+          <div class="q_thead">
+            アンケート一覧
+          </div>
+        </th>
       </tr>
     </thead>
     <tbody>
 
       <tr>
         <td>
-          アンケートⅠ
+          <div class="q_td">
+            アンケートⅠ
+          </div>
         </td>
         <td>
-          アンケートⅡ
+          <div class="q_td">
+            アンケートⅡ
+          </div>
         </td>
         <td>
-          アンケートⅢ
+          <div class="q_td">
+            アンケートⅢ
+          </div>
         </td>
         <td>
-          アンケートⅣ
+          <div class="q_td">
+            アンケートⅣ
+          </div>
         </td>
       </tr>
 
