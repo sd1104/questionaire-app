@@ -209,8 +209,18 @@ li {
   border: 1px solid lightblue;
 }
 
+.q_wrap {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
 .q_box {
   width: 300px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
 }
 
 .q_box .q_cont {

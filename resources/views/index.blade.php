@@ -10,6 +10,7 @@
       </tr>
     </thead>
     <tbody>
+
       <tr>
         <td>
           アンケートⅠ
@@ -23,32 +24,85 @@
         <td>
           アンケートⅣ
         </td>
+      </tr>
+
       <tr>
-        <td class="q_box">
-          <div class="q_cont">
-            <div class="q_name">
-              <p>アンケート１</p>
-              <p>(○月■日〜○月■日)</p>
+        <td class="q_wrap">
+          <div class="q_box">
+            <div class="q_cont">
+              <div class="q_name">
+                <p>アンケート１</p>
+                <p>(○月■日〜○月■日)</p>
+              </div>
+              <div class="q_btn">
+                <button class="answer_btn">回答済み</button>
+              </div>
             </div>
-            <div class="q_btn">
-              <button class="answer_btn">回答済み</button>
+            <div class="q_cont">
+              <div class="q_name">
+                <p>アンケート１</p>
+                <p>(○月■日〜○月■日)</p>
+              </div>
+              <div class="q_btn">
+                <button class="answer_btn">回答済み</button>
+              </div>
+            </div>
+            <div class="q_cont">
+              <div class="q_name">
+                <p>アンケート１</p>
+                <p>(○月■日〜○月■日)</p>
+              </div>
+              <div class="q_btn">
+                <button class="answer_btn">回答済み</button>
+              </div>
             </div>
           </div>
         </td>
-        <td>
-          アンケート1<br>
 
-        </td>
         <td>
-          アンケート1<br>
-
+          <div class="q_box">
+            <div class="q_cont">
+              <div class="q_name">
+                <p>アンケート2</p>
+                <p>(○月■日〜○月■日)</p>
+              </div>
+              <div class="q_btn">
+                <button class="answer_btn">回答済み</button>
+              </div>
+            </div>
+          </div>
         </td>
+
         <td>
-          アンケート1<br>
-
+          <div class="q_box">
+            <div class="q_cont">
+              <div class="q_name">
+                <p>アンケート3</p>
+                <p>(○月■日〜○月■日)</p>
+              </div>
+              <div class="q_btn">
+                <button class="answer_btn">回答済み</button>
+              </div>
+            </div>
+          </div>
         </td>
+
+        <td>
+          <div class="q_box">
+            <div class="q_cont">
+              <div class="q_name">
+                <p>アンケート4</p>
+                <p>(○月■日〜○月■日)</p>
+              </div>
+              <div class="q_btn">
+                <button class="answer_btn">回答済み</button>
+              </div>
+            </div>
+          </div>
+        </td>
+
       </tr>
-      </tr>
+
     </tbody>
   </table>
 
