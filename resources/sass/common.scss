@@ -54,3 +54,36 @@ li {
   margin-top: 40px;
   border: 1px solid lightblue;
 }
+
+thead {
+  border-bottom: 2px solid gray;
+}
+
+tr {
+  border-bottom: 1px solid gray;
+}
+
+.q_thead,
+.q_td {
+  margin: 10px 0;
+}
+
+.q_box {
+  width: 300px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin: 20px 0;
+  .q_cont {
+    width: 230px;
+    display: flex;
+    margin: 10px 0;
+    .q_name {
+      margin-right: 10px;
+    }
+    .answer_btn {
+      width: 60px;
+      font-size: 10px;
+    }
+  }
+}
