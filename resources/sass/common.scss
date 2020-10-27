@@ -48,6 +48,11 @@ li {
   border: 1px solid orange;
 }
 
+.action {
+  display: flex;
+  justify-content: center;
+}
+
 .submit_btn {
   color: #000;
   background-color: #5bd1d7;
@@ -85,5 +90,13 @@ tr {
       width: 60px;
       font-size: 10px;
     }
+  }
+}
+
+
+.answer {
+  display: flex;
+  .select {
+    display: inline-block;
   }
 }

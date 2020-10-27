@@ -202,6 +202,11 @@ li {
   border: 1px solid orange;
 }
 
+.action {
+  display: flex;
+  justify-content: center;
+}
+
 .submit_btn {
   color: #000;
   background-color: #5bd1d7;
@@ -243,6 +248,14 @@ tr {
 .q_box .q_cont .answer_btn {
   width: 60px;
   font-size: 10px;
+}
+
+.answer {
+  display: flex;
+}
+
+.answer .select {
+  display: inline-block;
 }
 
 .heaer_nav {
