@@ -6,7 +6,7 @@
 
     <div class="formbody1">
 
-      <p class="form_title">ログイン</p>
+      <p class="form_title">サンプルアンケート 回答確認</p>
       <form action="get" class="user_form">
         <table>
           <thead>
