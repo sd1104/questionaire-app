@@ -17,6 +17,11 @@ Route::get('/', function () {
     return view('confirm');
 });
 
+Route::get(
+    'tests/test',
+    'App\Http\Controllers\TestController@index'
+);
+
 // Route::get('index', function () {
 //     return view('index');
 // });
