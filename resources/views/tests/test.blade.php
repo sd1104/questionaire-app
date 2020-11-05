@@ -1,5 +1,7 @@
 <?php
 
+  $pageFlag = 0;
+
 ?>
 
 <!DOCTYPE html>
@@ -11,11 +13,11 @@
   <title>Test.test.blade.php</title>
 </head>
 <body>
-
-  <div>
-    <h2>Hello New World</h2>
-    <p>Hello! This is Test Page.</p>
-  </div>
-
+  <?php if($pageFlag !== 0): ?>
+    <div>
+      <h2>Hello New World</h2>
+      <p>Hello! This is Test Page.</p>
+    </div>
+  <?php endif; ?>
 </body>
 </html>
