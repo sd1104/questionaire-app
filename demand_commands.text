@@ -1,0 +1,19 @@
+モデル作成
+php artisan make:model Test
+php artisan make:model Test -m
+php artisan make:model Test -c
+php artisan make:model Test -mc
+
+テーブル作成
+php artisan make:migration Tests
+
+マイグレーション
+php artisan migrate
+php artisan migrate:rollback
+php artisan migrate:status
+
+コントローラー作成
+php artisan make:controller TestController
+
+サーバー起動
+php artisan serve
