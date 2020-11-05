@@ -17,3 +17,48 @@ php artisan make:controller TestController
 
 サーバー起動
 php artisan serve
+
+
+データベースの値の一覧表示
+
+・Controller
+    <?php
+    namespace App\Http\Controllers;
+    use Illuminate\Http\Request;
+    use App\Models\Test;
+
+    class TestController extends Controller
+    {
+        public function index()
+        {
+            $values = Test::all();
+            // dd($values);
+            return view('tests/test', compact('values'));
+        }
+    }
+
+・Route
+    Route::get(
+        'tests/test',
+        'App\Http\Controllers\TestController@index'
+    );
+
+・View
+    @foreach($values as $value)
+      {{ $value->id}}
+      <br>
+      {{ $value->name }}
+      <br>
+      {{ $value->age }}
+      <br>
+      {{ $value->hobby }}
+    @endforeach
+
+
+    <?php foreach($values as $value):?>
+      <?php
+        echo '<pre>';
+          var_dump($value->name);
+        echo '</pre>';
+      ?>
+    <?php endforeach; ?>
