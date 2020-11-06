@@ -11058,12 +11058,20 @@ legend {
   display: none;
 }
 
+.container {
+  min-height: calc(100vh - 50px - 250px) !important;
+}
+
+.top_space {
+  margin-top: 40px;
+}
+
 .body {
   min-height: 100vh;
 }
 
 .navigation {
-  background-color: #dddddd;
+  background-color: #dddddd !important;
 }
 
 a {
@@ -11179,7 +11187,7 @@ tr {
 }
 
 .home_nav {
-  height: 50px;
+  height: 50px !important;
   display: flex;
   justify-content: space-between;
   padding: 10px;
