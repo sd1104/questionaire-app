@@ -2,7 +2,7 @@
 @section('content')
   <div class="wrapper">
 
-    <div id="top_image">
+    <div id="top_image" class="home_block">
       <div id="top_icon"></div>
       <p class="top_copy">
         <span class="top_copy_main">学校運営のための</span><br>
@@ -18,7 +18,7 @@
     </div>
 
 
-    <div class="kind_contents">
+    <div class="kind_contents home_block">
       <div class="explanation">
         <span class="explain_head">どんなアンケートをするの？</span><br>
         <span class="explain_body">
@@ -48,7 +48,7 @@
     </div>
 
 
-    <div class="reason_contents">
+    <div class="reason_contents home_block">
       <div class="reason_explanation">
         <span class="reason_explain_head">何のためにアンケートをするの？</span><br>
         <span class="reason_explain_body">
@@ -80,7 +80,7 @@
     </div>
 
 
-    <div class="register_way_contens">
+    <div class="register_way_contens home_block">
       <div class="register_explanation">
         <span class="register_explain_head">登録からご利用までの流れ</span><br>
       </div>
@@ -101,7 +101,7 @@
     </div>
 
 
-    <div class="advantage_contents">
+    <div class="advantage_contents home_block">
       <div class="advantage_contents">
         <div class="advantage_explanation">
             <span class="advantage_explain_head">School-Qを使うとこんないいことが！</span><br>
