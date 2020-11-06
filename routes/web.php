@@ -13,15 +13,25 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::auth();
+
 Route::get('/', function () {
-    return view('confirm');
+    return view('home');
 });
+
+Route::group(['prefix' => 'contact', 'middleware' => 'auth'], function(){
+    Route::get('index', 'App\Http\Controllers\ContactFormController@index')->name('contact.index');
+});
+
+
+// Route::resource('contacts', 'App\Http\Controllers\ContactFormController');
 
 // Route::get('index', function () {
 //     return view('index');
 // });
 
 // Route::get('index', 'App\Http\Controllers\TestController@index');
+
 
 // Route::get(
 //     'tests/test',
