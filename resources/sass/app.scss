@@ -1,6 +1,15 @@
-@import "reset.scss";
-@import "common.scss";
-@import "modules/header";
-@import "modules/footer";
-@import "modules/home";
-@import "modules/registration";
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import 'reset';
+@import 'common';
+@import 'modules/footer';
+@import 'modules/header';
+@import 'modules/home';
+@import 'modules/registration';

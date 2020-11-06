@@ -1,9 +1,17 @@
+.container{
+  min-height: calc(100vh - 50px - 250px) !important;
+}
+
+.top_space {
+  margin-top: 40px;
+}
+
 .body{
   min-height: 100vh;
 }
 
-.nav {
-  background-color: #dddddd;
+.navigation {
+  background-color: #dddddd !important;
 }
 
 a {

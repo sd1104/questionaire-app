@@ -1,6 +1,6 @@
 @section('footer')
   <footer>
-    <div class="nav footer_nav">
+    <div class="navigation footer_nav">
       <ul class="footer_links">
         <li><a href="#">会員規約</a></li>
         <li><a href="#">プライバシーステートメント</a></li>

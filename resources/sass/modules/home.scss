@@ -1,3 +1,8 @@
+.home_block {
+  height: 500px;
+  width: 100%;
+}
+
 .wrapper {
   min-height: calc(100vh - 50px - 250px);
   background-color: ivory;
@@ -6,7 +11,6 @@
   align-items: center;
   flex-direction: column;
   #top_image{
-    height: 500px;
     background-color: #fff;
     background-image: url(../../../public/images/change-4039486_1920.jpg);
     background-size:cover;
@@ -55,7 +59,6 @@
   }
 
   .kind_contents {
-    height: 500px;
     background-color: lightgray;
     display: flex;
     flex-direction: column;
@@ -172,7 +175,6 @@
 
 
   .register_way_contens {
-    height: 500px;
     background-color: lightgray;
     display: flex;
     flex-direction: column;
@@ -223,7 +225,6 @@
 
 
   .advantage_contents {
-    height: 500px;
     background-color: #fff;
     display: flex;
     align-items: center;
