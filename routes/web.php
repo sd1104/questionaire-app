@@ -19,6 +19,10 @@ Route::get('/', function () {
     return view('home');
 });
 
+Route::get('home', function () {
+    return view('home');
+});
+
 Route::group(['prefix' => 'contact', 'middleware' => 'auth'], function(){
     Route::get('index', 'App\Http\Controllers\ContactFormController@index')->name('contact.index');
 });
